@@ -1,0 +1,1496 @@
+@font-face{
+    font-family: "Vazir0";
+    src: url('../font/Vazir-Regular.woff2') format('Woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Vazir1";
+    src: url('../font/Vazir-Light.woff2')format('Woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Vazir2";
+    src: url('../font/Vazir-Medium.woff2')format('Woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Vazir3";
+    src: url('../font/Vazir-Black.woff2')format('Woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Vazir4";
+    src: url('../font/Vazir-Bold.woff2')format('Woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Vazir5";
+    src: url('../font/Vazir-Thin.woff2')format('Woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+*{
+    margin: 0 auto;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+a#point:hover{
+    color: tomato;
+    cursor: pointer;
+}
+a#point{
+    transition-timing-function: ease;
+}
+img.logo-picture{
+    width: 158px;
+    height: 97px;
+    float: left;
+    margin: 10px 10px;
+}
+header.header-menu{
+    height: 120px;
+    background-color: skyblue;
+    width: 1200px;
+    border-radius: 20px;
+}
+ul.hd-menu{
+    float: right;
+} 
+
+li#text-menu{
+    display: inline-block;
+    padding: 20px;
+    font-family: "Vazir4";
+    margin: 25px 0;
+    
+}
+
+.show{
+     display: inline-block;
+}
+
+button.humburger-icon{
+    float: right;
+    border: none;
+    background-color: skyblue;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 39px 10px;
+    display: none;
+}
+
+section.search-section{
+    width: 1200px;
+    height: 200px;
+    background-image: url(../image/rainy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+form.search-bar{
+    text-align: center;
+}
+
+input.search-city{
+    margin-top: 85px;
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+}
+input.search-city:hover{
+    cursor: text;
+}
+
+section.main-temprature{
+    height: 300px;
+    width: 1200px;
+     background-image: url(../image/day.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     margin-top: 20px;
+     border-radius: 20px;
+}
+
+p.main-city{
+   text-align: center;
+   padding-top: 10px;
+   font-family:  "Vazir2";
+   font-size: 30px;
+   font-weight: 600;
+   font-style: italic;
+}
+
+p.orginal-temprature{
+     text-align: center;
+     padding-top: 10px;
+     font-family:  "Vazir2";
+     font-size: 50px;
+     font-weight: 600;
+     font-style: italic;
+    
+    }
+
+    p.humidity{
+        text-align: center;
+        padding-top: 10px;
+        font-family:  "Vazir2";
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    p.amount-humidity{
+        text-align: center;
+     padding-top: 10px;
+     font-family:  "Vazir2";
+     font-size: 50px;
+     font-weight: 600;
+     font-style: italic;
+    }
+section.weather{
+    height: 800px;
+    width: 1200px;
+    margin-top: 25px;
+}
+
+div.text-condition{
+    display: none;
+}
+
+h3.condition{
+    display: none;
+}
+
+div#air-condition{
+    display: none;
+}
+
+span#city-name{
+    display: none;
+}
+
+span#degree{
+    display: none;
+}
+i.icon-model{
+    display: none;
+}
+
+div.recognize-condition{
+    display: none;
+}
+
+h3.condition-for768{
+    display: none;
+}
+
+div#air-condition2{
+    display: none;
+}
+
+span#city-name2{
+    display: none;
+}
+
+span#degree-icon{
+    display: none;
+}
+
+div#condition2{
+       display: none;
+   }
+
+   h3#condition-for992{
+       display: none;
+   }
+
+   div#condition2{
+       display: none;
+   }
+
+   h3#condition-for992{
+       display: none;
+   }
+
+   div#air-condition3{
+       display: none;
+   }
+
+   span#right-city{
+       display: none;
+   }
+
+   span#middle-city{
+       display: none;
+   }
+
+   span#left-city{
+       display: none;
+   }
+
+   span#city-name3{
+       display: none;
+   }
+   span#degree3{
+       display: none;
+   }
+
+    div#condition3{
+        display: none;
+    }
+
+    h3#condition-for1200{
+        display: none;
+    }
+    div#air-condition4{
+        display: none;
+    }
+    span#right-city1{
+        display: none;
+    }
+     span#city-name4{
+        display: none;
+    }
+    span#degree4{
+        display: none;
+    }
+    span#icon-degree1200{
+        display: none;
+    }
+
+    footer.final-section{
+        width: 1200px;
+        height: 300px;
+        margin-top: 50px;
+        border-radius: 30px;
+        background-color: royalblue;
+    }
+
+    i.phone-icon{
+        margin-right: 30px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    span.phone-to-call{
+        margin-right: 10px;
+        font-size: 20px;
+        font-family: "Vazir2";
+        font-weight: 700;
+    }
+    
+    span.phone-number{
+        font-family: "Vazir2";
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 10px;
+    }
+
+    i.email-env{
+        margin-right: 30px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    span.email-to-message{
+        font-family: "Vazir2";
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 10px;
+    }
+
+    span.e-mail{
+        font-family: "Vazir2";
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 10px
+    }
+
+    i.code-asterisk{
+        margin-right: 30px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    span.code-posti{
+        font-family: "Vazir2";
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 10px;
+    }
+
+    span.code{
+        font-family: "Vazir2";
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 10px
+    }
+
+    i.fax-fax{
+        margin-right: 30px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    span.fax{
+        font-family: "Vazir2";
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 10px;
+    }
+
+    span.code-fax{
+        font-family: "Vazir2";
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 10px
+    }
+
+    i.address-home{
+        margin-right: 30px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    span.address{
+         font-family: "Vazir2";
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 10px;
+    }
+
+    span.adress{
+        font-family: "Vazir2";
+        font-size: 20px;
+        font-weight: 700;
+        margin-right: 10px
+    }
+@media (min-width : 1200.02px){
+
+    header.header-menu{
+        width: 1200px;
+    }
+
+    section.search-section{
+        width: 1200px;
+    }
+
+    section.main-temprature{
+        width: 1200px;
+    }
+     section.weather{
+       height: 1300px!important;
+       width: 1200px;
+       background-image: url(../image/sunny-day.jpg);
+       background-repeat: no-repeat;
+       background-size: 1197px 1300px;
+       border-radius: 30px;
+     }
+
+     div#condition4{
+         display: inline-block;
+         width: 1100px;
+         height: 40px;
+         margin-top: 30px;
+         margin-right: 43px;
+         text-align: center;
+         background-color: #fff;
+         border-radius: 30px;
+     }
+
+     h3#condition-formore1300{
+         display: inline-block;
+         font-family:  "Vazir4";
+         font-weight: 700;
+         font-style: italic;
+         margin-top: 5px;
+     }
+
+     div#air-condition-final{
+         display: inline-block;
+         width: 500px;
+         height: 60px;
+          background-color: #fff;
+          margin-top: 30px;
+          margin-right: 328px;
+          border-radius: 10px;
+          margin-top: 60px;
+     }
+     span#city-final{
+        display: inline-block;
+     }
+     span#city-name-final{
+         display: inline-block;
+         font-family:  "Vazir4";
+         font-weight: 700;
+         font-size: 30px;
+         font-style: italic;
+         padding-right: 15px;
+         padding-left: 30px;
+         padding-top: 3px;
+     }
+     span#degree-final{
+         display: inline-block;
+         font-family:  "Vazir4";
+         font-weight: 700;
+         font-size: 30px;
+         font-style: italic;
+         padding-right: 170px;
+         padding-left: 5px;
+         padding-top: 3px;
+     }
+     span#degree-icon-final{
+         display: inline-block;
+         font-family:  "Vazir4";
+         font-weight: 700;
+         font-size: 30px;
+         font-style: italic;
+         padding-right: 100px;
+         padding-top: 3px;
+     }
+
+     footer.final-section{
+        width: 1200px;
+    }
+
+    div#condition4:hover{
+        border: 1px groove black;
+        background-color: burlywood;
+        color: midnightblue;
+         cursor: text;
+    }
+
+    div#air-condition-final:hover{
+        border: 1px dashed black;
+        background-color: burlywood;
+        color: navy;
+        cursor: text;
+    }
+
+    i.phone-icon:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   span.phone-to-call:hover{
+       color: #fff;
+       cursor: text;
+   }
+   span.phone-number:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   i.email-env:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   span.email-to-message:hover{
+       color: #fff;
+       cursor: text;
+   }
+   span.e-mail:hover{
+       color: #fff;
+       cursor: text;
+   }
+   i.code-asterisk:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   span.code-posti:hover{
+       color: #fff;
+       cursor: text;
+   }
+   span.code:hover{
+       color: #fff;
+       cursor: text;
+   }
+   i.fax-fax:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   span.fax:hover{
+       color: #fff;
+       cursor: text;
+   }
+   span.code-fax:hover{
+       color: #fff;
+       cursor: text;
+   }
+   i.address-home:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   span.address:hover{
+       color: #fff;
+       cursor: text;
+   }
+   span.adress:hover{
+       color: #fff;
+       cursor: text;
+   }
+}
+
+@media (max-width : 1199.98px){
+   header.header-menu{
+        width: 992px;
+    }
+
+    section.search-section{
+        width: 992px;
+    }
+
+    section.main-temprature{
+    width: 992px;
+    }
+
+    section.weather{
+    width: 992px;
+     background-image: url(../image/rainy.jpeg);
+    background-repeat: no-repeat;
+    background-size: 989px 800px;
+    border-radius: 30px;
+    }
+
+    footer.final-section{
+        width: 992px;
+    }
+  
+    /* <!-- --------------- start coding for less than 1200---------------------- --> */
+
+    div#condition3{
+        display: inline-block;
+        height: 40px;
+        width: 900px;
+        text-align: center;
+        margin-right: 50px;
+        margin-top: 20px;
+        border-radius: 30px;
+        background-color: #fff;
+    }
+
+    h3#condition-for1200{
+        display: inline-block;
+        font-family: "Vazir4";
+        font-weight: 700;
+        font-style: italic;
+        margin-top: 5px;
+    }
+
+    div#air-condition4{
+        display: inline-block;
+        height: 50px;
+        width: 430px;
+        margin-top: 75px;
+        margin-right: 40px;
+        background-color: #fff;
+        border-radius: 30px;
+    }
+    span#right-city1{
+        display: inline-block;
+        float: right;
+    }
+    span#city-name4{
+        display: inline-block;
+        font-family: "Vazir4";
+        font-weight: 700;
+        font-style: italic;
+        font-size: 30px;
+        padding: 5px;
+        margin-right: 7px;
+    }
+    span#degree4{
+        display: inline-block;
+        font-family: "Vazir4";
+        font-weight: 700;
+        font-style: italic;
+        font-size: 30px;
+        padding: 5px;
+        margin-right: 110px;
+        float: left;
+    }
+    span#icon-degree1200{
+        display: inline-block;
+        font-family: "Vazir4";
+        font-weight: 700;
+        font-style: italic;
+        font-size: 30px;
+        padding: 5px;
+        float: left;
+        margin-right: 90px;
+    }
+
+    /* <!-- --------------- end coding for less than 1200---------------------- --> */
+
+     /* <!-- --------------- start coding for more than 1200---------------------- --> */
+
+    div#condition4{
+        display: none;
+    }
+
+    h3#condition-formore1300{
+        display: none;
+    }
+
+    div#air-condition-final{
+         display: none;
+     }
+
+     span#city-final{
+        display: none;
+     }
+
+    span#city-name-final{
+         display: none;
+
+     }
+     span#degree-final{
+         display: none;
+
+     }
+     span#degree-icon-final{
+         display: none;
+
+     }
+
+    /* <!-- --------------- end coding for more than 1200---------------------- --> */
+
+    i.phone-icon:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   span.phone-to-call:hover{
+       color: #fff;
+       cursor: text;
+   }
+   span.phone-number:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   i.email-env:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   span.email-to-message:hover{
+       color: #fff;
+       cursor: text;
+   }
+   span.e-mail:hover{
+       color: #fff;
+       cursor: text;
+   }
+   i.code-asterisk:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   span.code-posti:hover{
+       color: #fff;
+       cursor: text;
+   }
+   span.code:hover{
+       color: #fff;
+       cursor: text;
+   }
+   i.fax-fax:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   span.fax:hover{
+       color: #fff;
+       cursor: text;
+   }
+   span.code-fax:hover{
+       color: #fff;
+       cursor: text;
+   }
+   i.address-home:hover{
+       color: #fff;
+       cursor: text;
+   }
+
+   span.address:hover{
+       color: #fff;
+       cursor: text;
+   }
+   span.adress:hover{
+       color: #fff;
+       cursor: text;
+   }
+}
+
+@media (max-width : 992.98px){
+    header.header-menu{
+        width: 768px;
+    } 
+
+    li#text-menu{
+        padding: 10px;
+    }
+
+    img.logo-picture{
+        width: 100px;
+        height: 70px;
+    }
+
+    section.search-section{
+        width: 768px;
+    }
+
+    section.main-temprature{
+    width: 768px;
+    }
+
+    section.weather{
+    height: 1000px!important;
+    width: 768px;
+    background-image: url(../image/cloudy.jpeg);
+    background-repeat: no-repeat;
+    background-size: 900px 1000px; 
+    background-position: center;
+    border-radius: 30px; 
+    }
+
+    footer.final-section{
+        width: 768px;
+    }
+
+     /* <!-- --------------- start coding for less than 992---------------------- --> */
+
+    div#condition2{
+       display: inline-block;
+       width: 700px;
+       height: 40px;
+       background-color: #fff;
+       margin-right: 30px;
+       text-align: center;
+       border-radius: 10px;
+       margin-top: 7px;
+   }
+
+   h3#condition-for992{
+       display: inline-block;
+       padding-top: 5px;
+       font-family: "Vazir4";
+       font-weight: 700;
+       font-style: italic;
+   }
+
+   div#air-condition3{
+       display: inline-block;
+       width: 700px;
+       height: 200px;
+       margin-right: 30px;
+       margin-top: 10px;
+   }
+
+   span#right-city{
+       display: inline-block;
+       float: right;
+       background-color: #fff;
+       width: 110px;
+       height: 110px;
+       text-align: center;
+       border-radius: 50%;
+       margin-top: 22px;
+   }
+
+   span#middle-city{
+       display: inline-block;
+       background-color: #fff;
+       width: 110px;
+       height: 110px;
+       text-align: center;
+       border-radius: 50%;
+       margin-right: 189px;
+       margin-top: 30px;
+   }
+
+   span#left-city{
+       display: inline-block;
+       float: left;
+       background-color: #fff;
+       width: 110px;
+       height: 110px;
+       text-align: center;
+       border-radius: 50%;
+       margin-top: 30px;
+   }
+
+   span#city-name3{
+       display: inline-block;
+       margin-top: 10px;
+       font-family: "Vazir4";
+       font-weight: 700;
+       font-style: italic;
+       font-size: 22px;
+   }
+   span#degree3{
+       display: inline-block;
+       margin-top: 31px;
+       font-family: "Vazir4";
+       font-weight: 700;
+       font-style: italic;
+       font-size: 22px;
+   }
+   
+   span.mashshad-moghadas{
+       margin-right: 287px!important;
+       margin-top: 39px!important;
+   }
+
+   span.mashhad{
+       font-size: 15px!important;
+       font-family: "Vazir4"!important;
+       font-weight: 700!important;
+       font-style: italic!important;
+   }
+
+    /* <!-- --------------- end coding for less than 992---------------------- --> */
+
+    /* <!-- --------------- start coding for less than 1200---------------------- --> */
+
+    div#condition3{
+        display: none;
+    }
+
+    h3#condition-for1200{
+        display: none;
+    }
+
+    div#air-condition4{
+        display: none;
+    }
+    span#right-city1{
+        display: none;
+    }
+    span#city-name4{
+        display: none;
+    }
+    span#degree4{
+        display: none;
+    }
+    span#icon-degree1200{
+        display: none;
+    }
+
+    /* <!-- --------------- end coding for less than 1200---------------------- --> */
+
+    div#condition2:hover{
+        background-color: cadetblue;
+        border: 1px dashed;
+    }
+
+    span#right-city:hover{
+        background-color: cadetblue;
+        border: 1px dashed;
+    }
+
+    span#middle-city:hover{
+        background-color: cadetblue;
+        border: 1px dashed;
+    }
+
+    span#left-city:hover{
+        background-color: cadetblue;
+        border: 1px dashed;
+    }
+
+    i.phone-icon:hover{
+       color: tan;
+       cursor: text;
+   }
+
+   span.phone-to-call:hover{
+       color: tan;
+       cursor: text;
+   }
+   span.phone-number:hover{
+       color: tan;
+       cursor: text;
+   }
+
+   i.email-env:hover{
+       color: tan;
+       cursor: text;
+   }
+
+   span.email-to-message:hover{
+       color: tan;
+       cursor: text;
+   }
+   span.e-mail:hover{
+       color: tan;
+       cursor: text;
+   }
+   i.code-asterisk:hover{
+       color: tan;
+       cursor: text;
+   }
+
+   span.code-posti:hover{
+       color: tan;
+       cursor: text;
+   }
+   span.code:hover{
+       color: tan;
+       cursor: text;
+   }
+   i.fax-fax:hover{
+       color: tan;
+       cursor: text;
+   }
+
+   span.fax:hover{
+       color: tan;
+       cursor: text;
+   }
+   span.code-fax:hover{
+       color: tan;
+       cursor: text;
+   }
+   i.address-home:hover{
+       color: tan;
+       cursor: text;
+   }
+
+   span.address:hover{
+       color: tan;
+       cursor: text;
+   }
+   span.adress:hover{
+       color: tan;
+       cursor: text;
+   }
+}
+
+@media (max-width : 768.98px){
+    header.header-menu{
+        width: 576px;
+    }
+
+    section.search-section{
+        width: 576px;
+    }
+
+    section.main-temprature{
+         width: 576px;
+    }
+
+    section.weather{
+    height: 800px!important;
+    width: 576px;
+    background-image: url(../image/sunny.jpeg);
+    background-repeat: no-repeat;
+    background-size: 571px 802px;
+    background-position: center;
+    border-radius: 30px;
+   }
+
+   footer.final-section{
+        width: 576px;
+    }
+   /* <!-- --------------- start coding for less than 768---------------------- --> */
+
+   div.recognize-condition{
+    height: 40px;
+    display: inline-block;
+    width: 500px;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 36px;
+    margin-top: 50px;
+}
+
+h3.condition-for768{
+    display: inline-block;
+    font-family: "Vazir4";
+    vertical-align: auto;
+    text-align: center;
+    padding-top: 3px;
+}
+
+div#air-condition2{
+    display: inline-block;
+    height: 40px;
+    width: 500px;
+    padding-top: 20px;
+}
+
+span#city-name2{
+    display: inline-block;
+    float: right;
+    height: 40px !important; 
+    width: 240px !important;
+    text-align: center;
+    font-family: "Vazir4";
+    background-color: #fff;
+    padding: 8px 0 0 0;
+    margin-right: 34px;
+}
+
+span#degree-icon{
+    display: inline-block;
+    float: left;
+    height: 40px !important; 
+    width: 240px !important;
+    text-align: center;
+    font-family: "Vazir4";
+    background-color: #fff;
+    padding: 8px 0 0 0;
+    margin-left: -36px;
+}
+
+i.in-span{
+    padding-left: 66px;
+}
+    /* <!-- --------------- end coding for less than 768---------------------- --> */
+
+    /* <!-- --------------- start coding for less than 992---------------------- --> */
+     div#condition2{
+       display: none;
+   }
+
+   h3#condition-for992{
+       display: none;
+   }
+ 
+   div#condition2{
+       display: none;
+   }
+
+   h3#condition-for992{
+       display: none;
+   }
+
+   div#air-condition3{
+       display: none;
+   }
+
+   span#right-city{
+       display: none;
+   }
+
+   span#middle-city{
+       display: none;
+   }
+
+   span#left-city{
+       display: none;
+   }
+
+   span#city-name3{
+       display: none;
+   }
+   span#degree3{
+       display: none;
+   }
+      /* <!-- --------------- end coding for less than 992---------------------- --> */
+
+      /* <!-- --------------- start coding for less than 1200---------------------- --> */
+
+      div#condition3{
+        display: none;
+    }
+
+    h3#condition-for1200{
+        display: none;
+    }
+
+    div#air-condition4{
+        display: none;
+    }
+    span#right-city1{
+        display: none;
+    }
+
+     span#city-name4{
+        display: none;
+    }
+    span#degree4{
+        display: none;
+    }
+    span#icon-degree1200{
+        display: none;
+    }
+    
+      /* <!-- --------------- end coding for less than 1200---------------------- --> */
+
+      div.recognize-condition:hover{
+          background-color: darkkhaki;
+          border: 1px dotted black;
+      }
+
+     h3.condition-for768:hover{
+          color: navy;
+     }
+
+     span#city-name2:hover{
+         background-color: darkkhaki;
+         border: 1px dotted black;
+         color: navy;
+     }
+
+     span#degree-icon:hover{
+         background-color: darkkhaki;
+         border: 1px dotted black;
+         color: navy;
+     }
+
+     i.phone-icon:hover{
+       color: cyan;
+       cursor: text;
+   }
+
+   span.phone-to-call:hover{
+       color: cyan;
+       cursor: text;
+   }
+   span.phone-number:hover{
+       color: cyan;
+       cursor: text;
+   }
+
+   i.email-env:hover{
+       color: cyan;
+       cursor: text;
+   }
+
+   span.email-to-message:hover{
+       color: cyan;
+       cursor: text;
+   }
+   span.e-mail:hover{
+       color: cyan;
+       cursor: text;
+   }
+   i.code-asterisk:hover{
+       color: cyan;
+       cursor: text;
+   }
+
+   span.code-posti:hover{
+       color: cyan;
+       cursor: text;
+   }
+   span.code:hover{
+       color: cyan;
+       cursor: text;
+   }
+   i.fax-fax:hover{
+       color: cyan;
+       cursor: text;
+   }
+
+   span.fax:hover{
+       color: cyan;
+       cursor: text;
+   }
+   span.code-fax:hover{
+       color: cyan;
+       cursor: text;
+   }
+   i.address-home:hover{
+       color: cyan;
+       cursor: text;
+   }
+
+   span.address:hover{
+       color: cyan;
+       cursor: text;
+   }
+   span.adress:hover{
+       color: cyan;
+       cursor: text;
+   }
+}
+
+@media (max-width : 567.98px){
+    header.header-menu{
+        padding: 0 15px;
+        width: calc(100% - 30px);
+    }
+
+    button.humburger-icon{
+        display: inline-block;
+    }
+    ul.hd-menu{
+        display: none;
+        width: 100%;
+    }
+    li#text-menu{
+        display: block;
+        border-bottom: 1px solid gray;
+    }
+    section.search-section{
+      padding: 0 15px;
+        width: calc(100% - 30px);
+    }
+  
+    input.search-city{
+        padding: 0 15px;
+        width: calc(100% - 30px);
+    }
+
+     section.main-temprature{
+        padding: 0 15px;
+        width: calc(100% - 30px);
+    }
+
+      /* <!-- --------------- start coding for mobile---------------------- --> */
+
+    section.weather{
+    padding: 0 15px;
+    width: calc(100% - 30px);
+    background-image: url(../image/phone-rainy.jpeg);
+    background-repeat: no-repeat;
+    background-size: 624px 801px;
+    background-position: center;
+    border-radius: 30px;
+    }
+
+    footer.final-section{
+        height: 500px;
+        padding: 0 15px;
+        width: calc(100% - 30px);
+    }
+
+    div.text-condition{    
+    padding: 0 15px;
+    width: calc(100% - 30px);
+    display: inline-block;
+    background-color: darkkhaki;
+    border-radius: 10px;
+    margin-top: 20px;
+    }
+
+    h3.condition{
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Vazir4";
+    font-weight: 900;
+    }
+
+    div#air-condition{
+    padding: 0 15px;
+    width: calc(100% - 30px);    
+    display: inline-block;
+    margin-top: 30px;
+    background-color: darkkhaki;
+    border-radius: 10px;
+   }
+
+   span#city-name{
+    display: inline-block;
+    font-family: "Vazir4";
+    font-weight: 900;
+  }
+
+    span#degree{
+    display: inline-block;
+    font-family: "Vazir4";
+    font-weight: 900;
+    float: left;
+    }
+
+    i.icon-model{
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    padding-top: 3px;
+  }
+
+    /* <!-- --------------- end coding for mobile---------------------- --> */
+
+    /* <!-- --------------- start coding for 768---------------------- --> */
+
+     div.recognize-condition{
+    display: none;
+}
+
+h3.condition-for768{
+    display: none;
+}
+
+div#air-condition2{
+    display: none;
+}
+
+span#city-name2{
+    display: none;
+}
+
+span#degree-icon{
+    display: none;
+}
+
+   /* <!-- --------------- end coding for 768---------------------- --> */
+
+   /* <!-- --------------- start coding for 992---------------------- --> */
+
+   div#condition2{
+       display: none;
+   }
+
+   h3#condition-for992{
+       display: none;
+   }
+
+   div#air-condition3{
+       display: none;
+   }
+
+   span#right-city{
+       display: none;
+   }
+
+   span#middle-city{
+       display: none;
+   }
+
+   span#left-city{
+       display: none;
+   }
+
+   span#city-name3{
+       display: none;
+   }
+   span#degree3{
+       display: none;
+   }
+   /* <!-- --------------- end coding for 992---------------------- --> */
+
+   /* <!-- --------------- start coding for less than 1200---------------------- --> */
+
+   div#condition3{
+        display: none;
+    }
+
+    h3#condition-for1200{
+        display: none;
+    }
+
+    div#air-condition4{
+        display: none;
+    }
+    span#right-city1{
+        display: none;
+    }
+
+     span#city-name4{
+        display: none;
+    }
+    span#degree4{
+        display: none;
+    }
+    span#icon-degree1200{
+        display: none;
+    }
+    
+   /* <!-- --------------- end coding for less than 1200---------------------- --> */
+
+   h3.condition:hover{
+       color: blue;
+   }
+
+   span#city-name:hover{
+       color: red;
+   }
+
+   div#air-condition:hover{
+       background-color: white;
+       border: 1px solid black;
+   }
+
+   div.text-condition:hover{
+       background-color: white;
+        border: 1px solid black;
+   }
+
+   span#degree:hover{
+       color: crimson;
+   }
+
+   i.phone-icon:hover{
+       color: palegoldenrod;
+   }
+
+   span.phone-to-call:hover{
+       color: palegoldenrod;
+   }
+   span.phone-number:hover{
+       color: palegoldenrod;
+   }
+
+   i.email-env:hover{
+       color: palegoldenrod;
+   }
+
+   span.email-to-message:hover{
+       color: palegoldenrod;
+   }
+   span.e-mail:hover{
+       color: palegoldenrod;
+   }
+   i.code-asterisk:hover{
+       color: palegoldenrod;
+   }
+
+   span.code-posti:hover{
+       color: palegoldenrod;
+   }
+   span.code:hover{
+       color: palegoldenrod;
+   }
+   i.fax-fax:hover{
+       color: palegoldenrod;
+   }
+
+   span.fax:hover{
+       color: palegoldenrod;
+   }
+   span.code-fax:hover{
+       color: palegoldenrod;
+   }
+   i.address-home:hover{
+       color: palegoldenrod;
+   }
+
+   span.address:hover{
+       color: palegoldenrod;
+   }
+   span.adress:hover{
+       color: palegoldenrod;
+   }
+
+   li#text-menu{
+       display: none;
+   }
+}
